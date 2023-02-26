@@ -7,6 +7,7 @@ use App\Jobs\sms\SimpleSMS;
 class SmsService {
 
     /**
+     *  тест заливки
      *  @param int $sms
      *  @return void
      */
