@@ -8,7 +8,7 @@ class SmsService {
 
     /**
      *  тест заливки
-     *  Новый токен без логина
+     *  Новый токен без логина f
      *  @param int $sms
      *  @return void
      */
