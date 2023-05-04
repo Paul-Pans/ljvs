@@ -18,7 +18,7 @@ return new class extends Migration
 
     public function up()
     {
-        Schema::create('catalog_category', function (Blueprint $table) {
+        Schema::create('catalog_categories', function (Blueprint $table) {
             $table->id('cid');
             $table->uuid('cuuid')->nullable();
             $table->string('category_name');

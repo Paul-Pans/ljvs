@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('alias_category', function (Blueprint $table) {
+        Schema::create('alias_categories', function (Blueprint $table) {
             $table->id('acid');
             $table->integer('cid');
             $table->uuid('cuuid')->nullable();
